@@ -1,6 +1,6 @@
 {
   "name": "fire-read",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Line by Line reader for multiple files  automatically continuing to the next file on EOF.",
   "main": "index.js",
   "scripts": {

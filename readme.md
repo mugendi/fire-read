@@ -44,7 +44,7 @@ This produces the following logs:
 ```javascript
 {
   files: {
-    current: '/home/mugz/.@fetch/logs/info-2022-01-24.log',
+    current: '/logs/info-2022-01-24.log',
     selected: [
       '/logs/info-2022-08-25.log',
       '/logs/info-2022-08-24.log',
