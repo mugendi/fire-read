@@ -1,0 +1,31 @@
+{
+  "name": "fire-read",
+  "version": "1.0.0",
+  "description": "Line by Line reader for multiple files  automatically continuing to the next file on EOF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "multiple",
+    "reader",
+    "line-by-line",
+    "lines",
+    "eof"
+  ],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugendi/fire-read.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mugendi/fire-read/issues"
+  },
+  "homepage": "https://github.com/mugendi/fire-read#readme",
+  "dependencies": {
+    "n-readlines": "^1.0.1",
+    "validate-or-throw": "^1.0.2"
+  }
+}
