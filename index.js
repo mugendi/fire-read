@@ -50,12 +50,26 @@ class FireRead {
 
 		this.opts = opts;
 
-        // console.log(opts);
+		// console.log(opts);
 
 		return this;
 	}
 	read() {
 		let self = this;
+		
+		// if there are no files...
+		if (this.opts.files.length == 0) {
+			return {
+				files: {
+					current: null,
+					selected: [],
+				},
+				fileNum: 0,
+				lineNum: 0,
+				lines: null,
+				read: this.read.bind(self),
+			};
+		}
 
 		this.selectedFiles = this.selectedFiles || [...this.opts.files];
 
@@ -116,6 +130,4 @@ class FireRead {
 	}
 }
 
-
-
-module.exports = FireRead
+module.exports = FireRead;
