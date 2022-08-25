@@ -70,7 +70,7 @@ class FireRead {
 
 		this.fileNum =
 			this.fileNum == undefined || this.fileNum == null
-				? 0
+				? 1
 				: this.fileNum;
 
 		this.lineNum =
